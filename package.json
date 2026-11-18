@@ -1,4 +1,7 @@
 {
+  "scripts": {
+  "build": "ncc build src/main.js -o dist --minify --source-map"
+},
   "dependencies": {
     "@actions/core": "^3.0.1"
   },
